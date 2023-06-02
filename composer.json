@@ -1,0 +1,36 @@
+{
+    "name": "xel/framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "bxel07",
+            "email": "yogipratama.ut@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">8",
+        "vlucas/phpdotenv": "^5.5",
+        "react/http": "^1.8",
+        "react/event-loop": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "9.5.8"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "xel\\framework\\Basedata\\":"devise/Basedata",
+            "xel\\framework\\Service\\":"devise/Service",
+            "xel\\framework\\Devise\\":"devise/Devise",
+            "xel\\framework\\Middleware\\":"devise/Middleware",
+            "xel\\framework\\Helper\\":"devise/Helper"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "xel\\framework\\":"test/"
+        }
+    }
+
+
+}
