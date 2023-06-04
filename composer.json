@@ -1,5 +1,6 @@
 {
     "name": "xel/framework",
+    "description": "Xel Framework 0.3 alpha mockup",
     "type": "project",
     "authors": [
         {
@@ -17,6 +18,8 @@
         "phpunit/phpunit" : "9.5.8"
     },
 
+
+
     "autoload": {
         "psr-4": {
             "xel\\framework\\Basedata\\":"devise/Basedata",
@@ -30,7 +33,9 @@
         "psr-4": {
             "xel\\framework\\":"test/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable":false
 
 
 }
